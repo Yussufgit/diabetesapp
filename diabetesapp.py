@@ -14,7 +14,7 @@ image = Image.open('Diabetes Detection Web App.png')
 st.image(image, caption='Nutritech, one-stop solution to healthcare needs!',use_column_width=True)
 
 #Get the data
-df = pd.read_csv("diabetes.csv")
+df = pd.read_csv("Diabetes.csv")
 st.subheader('Data Information:')
 #Show the data as a table (you can also use st.write(df))
 st.dataframe(df)
