@@ -7,11 +7,11 @@ from PIL import Image
 import streamlit as st
 
 st.write("""
-# Diabetes Detection
- Detect if someone has diabetes using python and Random Forest algorithm !
+# Diabetes Detection for females aged 21+years
+ Accurately Predict if a new patient has diabetes or not!
 """)
-image = Image.open('Diabetes Detection Web App.png')
-st.image(image, caption='Nutritech, one-stop solution to healthcare needs!',use_column_width=True)
+image = Image.open('team5')
+st.image(image, caption='AFRICA BASQUE CHALLENGE, 3RD EDITION!',use_column_width=True)
 
 #Get the data
 df = pd.read_csv("diabetes.csv")
